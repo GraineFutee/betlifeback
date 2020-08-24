@@ -19,7 +19,7 @@ CREATE TABLE matches (
   away BIGINT NOT NULL,
   match_number_home INTEGER,
   match_number_away INTEGER,
-  match_date DATE NOT NULL,
+  match_date VARCHAR(8) NOT NULL,
   win VARCHAR(1) NOT NULL,
   home_score INTEGER,
   away_score INTEGER,
