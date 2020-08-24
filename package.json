@@ -1,0 +1,26 @@
+{
+  "name": "betlifeback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GraineFutee/betlifeback.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GraineFutee/betlifeback/issues"
+  },
+  "homepage": "https://github.com/GraineFutee/betlifeback#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-promise-router": "^4.0.1",
+    "joi": "^17.2.1",
+    "pg": "^8.3.2"
+  }
+}
