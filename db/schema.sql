@@ -30,7 +30,7 @@ CREATE TABLE season_teams (
     CONSTRAINT fk_season
       FOREIGN KEY(season) 
 	  REFERENCES seasons(id)
-)
+);
 
 CREATE TABLE matches (
   id BIGSERIAL,
